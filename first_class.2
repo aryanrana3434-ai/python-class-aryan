@@ -1,0 +1,447 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNN04e0vyHp99hmrGjS3G4H",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aryanrana3434-ai/python-class-aryan/blob/main/first_class.2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dZMf60FRHvlV",
+        "outputId": "42ee29f3-f244-476e-968d-bdeab1696aa5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "first name\n",
+            "14.700000000000001\n"
+          ]
+        }
+      ],
+      "source": [
+        "# hy this\n",
+        "\"\"\"this is my pc\n",
+        "hello this\n",
+        "helpp\"\"\"\n",
+        "a=10\n",
+        "print(a)\n",
+        "\n",
+        "a=\"first name\"\n",
+        "print(a)\n",
+        "a=12.3\n",
+        "b=2.4\n",
+        "c=a+b\n",
+        "print(c)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_number=10\n",
+        "second_number=20\n",
+        "addition=first_number+second_number\n",
+        "print(f\"sum of {first_number} and {second_number} is: {addition} \")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BMA9MC_WLnOU",
+        "outputId": "6c161f26-14f3-4d70-fb06-59290cc218f9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sum of 10 and 20 is: 30 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qZpUKCS_WxUM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "name = input(\"Enter your name: \")\n",
+        "age = input(\"Enter your age: \")\n",
+        "gender = input(\"Enter your gender: \")\n",
+        "email = input(\"Enter your email: \")\n",
+        "phone = input(\"Enter your phone number: \")\n",
+        "father_name =input(\"Enter father name:\")\n",
+        "print(\"************* Bio Data *****************\")\n",
+        "print(f\"Name: {name}\")\n",
+        "print(f\"Age: {age}\")\n",
+        "print(f\"Gender: {gender}\")\n",
+        "print(f\"Email: {email}\")\n",
+        "print(f\"Phone: {phone}\")\n",
+        "print(f\"fathername: {father_name}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wY8BLuy1NF6X",
+        "outputId": "804857a0-f47f-417b-93a7-cb17b02ab3ca"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: aryan\n",
+            "Enter your age: 22\n",
+            "Enter your gender: male\n",
+            "Enter your email: aryanihhh\n",
+            "Enter your phone number: 7897482\n",
+            "Enter father name:ajay\n",
+            "************* Bio Data *****************\n",
+            "Name: aryan\n",
+            "Age: 22\n",
+            "Gender: male\n",
+            "Email: aryanihhh\n",
+            "Phone: 7897482\n",
+            "fathername: ajay\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Item1=input(\"enter the name of item:\")\n",
+        "Item2=input(\"enter the name of item:\")\n",
+        "Item3=input(\"enter the name of item:\")\n",
+        "Item4=input(\"enter the name of itme:\")\n",
+        "Item1price=int(input(\"enter the price:\"))\n",
+        "Item2price=int(input(\"enter the price:\"))\n",
+        "Item3price=int(input(\"enter the price:\"))\n",
+        "Item4price=int(input(\"enter the price:\"))\n",
+        "DiscountinItem1=int(input(\"enter the discount in item1:\"))\n",
+        "DiscountinItem2=int(input(\"enter the discount in item2:\"))\n",
+        "DiscountinItem3=int(input(\"enter the discount in item3:\"))\n",
+        "DiscountinItem4=int(input(\"enter the discount in item4:\"))\n",
+        "print(Item1,Item1price,DiscountinItem1)\n",
+        "print(Item2,Item2price,DiscountinItem2)\n",
+        "print(Item3,Item3price,DiscountinItem3)\n",
+        "print(Item4,Item4price,DiscountinItem4)\n",
+        "total=Item1price+Item2price+Item3price+Item4price\n",
+        "print(total)\n",
+        "totaldiscount=DiscountinItem1+DiscountinItem2+DiscountinItem3+DiscountinItem4\n",
+        "totalbilltopay=total-totaldiscount\n",
+        "print(f\"totalbillwithdiscount:{totalbilltopay}\")\n",
+        "discountinpercent1=Item1price*DiscountinItem1/100\n",
+        "discountinpercent2=Item2price*DiscountinItem2/100\n",
+        "discountinpercent3=Item3price*DiscountinItem3/100\n",
+        "discountinpercent4=Item4price*DiscountinItem4/100\n",
+        "print(discountinpercent1)\n",
+        "print(discountinpercent2)\n",
+        "print(discountinpercent3)\n",
+        "print(discountinpercent4)\n",
+        "totalbillinpercent01=Item1price-discountinpercent1\n",
+        "totalbillinpercent02=Item1price-discountinpercent2\n",
+        "totalbillinpercent03=Item1price-discountinpercent3\n",
+        "totalbillinpercent04=Item1price-discountinpercent4\n",
+        "print(totalbillinpercent01)\n",
+        "print(totalbillinpercent02)\n",
+        "print(totalbillinpercent03)\n",
+        "print(totalbillinpercent04)\n"
+      ],
+      "metadata": {
+        "id": "9OPITeAmcNrQ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "067c94ed-781d-45b0-f5c8-ca22b35e77d2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the name of item:pizza\n",
+            "enter the name of item:burger\n",
+            "enter the name of item:softdrink\n",
+            "enter the name of itme:springroll\n",
+            "enter the price:200\n",
+            "enter the price:180\n",
+            "enter the price:160\n",
+            "enter the price:100\n",
+            "enter the discount in item1:20\n",
+            "enter the discount in item2:18\n",
+            "enter the discount in item3:15\n",
+            "enter the discount in item4:12\n",
+            "pizza 200 20\n",
+            "burger 180 18\n",
+            "softdrink 160 15\n",
+            "springroll 100 12\n",
+            "640\n",
+            "totalbillwithdiscount:575\n",
+            "40.0\n",
+            "32.4\n",
+            "24.0\n",
+            "12.0\n",
+            "160.0\n",
+            "167.6\n",
+            "176.0\n",
+            "188.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "principal=int(input(\"enter the principal in amount:\"))\n",
+        "rate=int(input(\"enter the rate of interest:\"))\n",
+        "month=int(input(\"enter the month:\"))\n",
+        "days=int(input(\"enter the days:\"))\n",
+        "time_in_year=(month/12)+(days/28)\n",
+        "simple_interest=(principal*rate*time_in_year)/100\n",
+        "print(simple_interest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YynoEv49p--k",
+        "outputId": "73c6a6d5-d204-4907-8bac-7dcc984fc1bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the principal in amount:1000\n",
+            "enter the rate of interest:5\n",
+            "enter the month:5\n",
+            "enter the days:10\n",
+            "38.69047619047619\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = 20\n",
+        "if num%2==0:\n",
+        "  print(\"even\")\n",
+        "else:\n",
+        "  print(\"odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IwdiZCtWwajK",
+        "outputId": "687f302a-f813-47c7-da5f-324ed45b2bf8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "markes=int(input(\"enter the marks:\"))\n",
+        "if markes >=90:\n",
+        "  grade=\"A+\"\n",
+        "elif markes >=80:\n",
+        "    grade=\"B+\"\n",
+        "elif markes >=75:\n",
+        "      grade=\"B\"\n",
+        "elif markes >=65:\n",
+        "  grade=\"c\"\n",
+        "elif markes >=55:\n",
+        "  grade=\"D\"\n",
+        "else:\n",
+        "    grade=\" F\"\n",
+        "print(markes)\n",
+        "print(grade)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dko-UM5TwamD",
+        "outputId": "5ee28246-f3a2-49c4-ec7f-297e4341b008"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the marks:88\n",
+            "88\n",
+            "B+\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "gender=input(\"enter the gender:\")\n",
+        "age=int(input(\"enter the age:\"))\n",
+        "if gender==\"male\":\n",
+        "  print(\"blockA\")\n",
+        "  if age>=30:\n",
+        "    print(\"buldingA\")\n",
+        "  else:\n",
+        "    print(\"buldingB\")\n",
+        "else:\n",
+        "    print(\"blockB\")\n",
+        "if gender==\"female\":\n",
+        "  print(\"blockB\")\n",
+        "  if age>30:\n",
+        "    print(\"buldingA\")\n",
+        "  else:\n",
+        "      print(\"buldingB\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1cFWbIg9E-Ks",
+        "outputId": "b222cc14-f989-4cbd-f712-be26df7b76de"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the gender:female\n",
+            "enter the age:25\n",
+            "blockB\n",
+            "blockB\n",
+            "buldingB\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter a number:\"))\n",
+        "first_num=0\n",
+        "second_num=1\n",
+        "print(first_num)\n",
+        "print(second_num)\n",
+        "for i in range(3,n+1):\n",
+        "  third_num=first_num+second_num\n",
+        "  first_num=second_num\n",
+        "  second_num=third_num\n",
+        "  print(third_num)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kgyd-BqFJXxq",
+        "outputId": "10a986ef-a949-4858-a4cd-8c3ddbdcec8a"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number:5\n",
+            "0\n",
+            "1\n",
+            "1\n",
+            "2\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(1,11):\n",
+        "    if i % 2==0:\n",
+        "     print(i)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c5WFGYiNLndA",
+        "outputId": "422f2a70-aa2f-437c-9718-b2a4a5e9c4ee"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
